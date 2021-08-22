@@ -4,11 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>my resume</title>
-    <link rel="stylesheet" href="./css/style.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=cyrillic"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
     <!-- main container -->
@@ -17,7 +13,6 @@
         <div class="my-photo" title="My photo"></div>
         <!-- <img class="my-photo" src="/assets/img/me_1.jpeg" alt="My photo" /> -->
         <div class="main-container">
-
           <!-- Contacts contener -->
           <div class="tech-skills-container">
             <h3 class="tech-skills-title">Контакты</h3>
@@ -33,38 +28,20 @@
                 </a>
               </li>
               <li class="tech-skills-item">
-                <a class="contacts-link" href="mailto:rita.levkoy@gmail.com">
-                  rita.levkoy@gmail.com
+                <a class="contacts-link email-link" href="mailto:rita.levkoy@gmail.com">
+                  rita.levkoy<wbr>@gmail.com
                 </a>
               </li>
               <li class="tech-skills-item">
-                <a class="contacts-link" href="https://www.facebook.com/profile.php?id=100011403041388">
+                <a
+                  class="contacts-link"
+                  href="https://www.facebook.com/profile.php?id=100011403041388">
                   Facebook
                 </a>
               </li>
             </ul>
           </div>
-          <!-- <div class="contacts-container">
-            <h3 class="Contacts-litle">Contacts</h3>
-            <div>
-              <span class="contacts-link-type"></span>
-              <a class="contacts-link" href="tel:+79773317679">
-                +7 977 331 76 79
-              </a>
-            </div>
-            <div>
-              <span class="contacts-link-type">C(LV):</span>
-              <a class="contacts-link" href="tel:+37127162437">
-                +371 27 16 24 37
-              </a>
-            </div>
-            <div>
-              <span class="contacts-link-type">E:</span>
-              <a class="contacts-link" href="mailto:rita.levkoy@gmail.com">
-                rita.levkoy@gmail.com
-              </a>
-            </div>
-          </div> -->
+          
 
           <!-- Tech Skills container -->
           <div class="tech-skills-container">
@@ -79,11 +56,11 @@
               <li class="tech-skills-item">
                 <span class="tech-skills-text">GIT</span>
               </li>
-              <li class="soft-skills-item">
-                <span class="soft-skills-text">Figma</span>
+              <li class="tech-skills-item">
+                <span class="tech-skills-text">Figma</span>
               </li>
-              <li class="soft-skills-item">
-                <span class="soft-skills-text">Photoshop</span>
+              <li class="tech-skills-item">
+                <span class="tech-skills-text">Photoshop</span>
               </li>
               <!-- <li class="tech-skills-item">
                 <span class="tech-skills-text">WebPack</span>
@@ -120,40 +97,58 @@
         <!-- about me main info -->
         <div class="info-container">
           <h2 class="profession">Front_End Developer</h2>
-          <h1 class="name">Рита Саломахо</h1>
+          <h1 class="name">Маргарита Саломахо</h1>
           <!-- <p class="description">
             Латвия(Рига)
           </p> -->
         </div>
-        <div class="project-container">
-          <!-- <h3 class="about-me-title"></h3> -->
-            <p class="tech-name">
-              Место проживания:
-              <span class="tech-name">................................................................&nbspЛатвия, Рига</span>
-            </p>
-            <p class="tech-name">
-              Дата рождения:
-              <span class="tech-name">..........................................................................&nbsp18.03.1986</span>
-            </p>
-            <p class="tech-name">
-              Гражданство:
-              <span class="tech-name">................................................................................&nbspРоссия</span>
-            </p>
-        </div>
-        
+        <!-- <div class="project-container">
+          <p class="tech-name">
+            Место проживания:
+            <span class="tech-name"
+              >...................................<wbr>.............................&nbspЛатвия,
+              Рига</span
+            >
+          </p>
+          <p class="tech-name">
+            Дата рождения:
+            <span class="tech-name"
+              >...................................<wbr>.......................................&nbsp18.03.1986</span
+            >
+          </p>
+          <p class="tech-name">
+            Гражданство:
+            <span class="tech-name"
+              >...................................<wbr>.............................................&nbspРоссия</span
+            >
+          </p>
+        </div> -->
+
         <!-- projects container -->
         <div class="project-container">
-          <h3 class="about-me-title">Projects</h3>
-          <ul>
+          <h3 class="about-me-title">Проекты</h3>
+          <ul class="profession-duties-item">
             <li class="project-item">
-              <a class="project-link" href="https://rish-fish.github.io/mood_landing/"
-                >"Moodlanding"
-              </a>
+              <a class="project-link" title="project_charity" href="https://rish-fish.github.io/project_charity/">"Charity"</a>
               <span class="dots"
-                >..............................................................</span>
-              <span
-                ><b>[ </b><span class="tech-name">HTML5, CSS3</span
-                ><b> ]</b></span>
+                >.......................................................</span
+              >
+              <span><b>[ </b><span class="tech-name">HTML5, SCSS, JS, Gulp</span><b> ]</b></span>
+            </li>
+            <li  class="project-item">
+              <a class="project-link" title="project_digital_landing" href="https://rish-fish.github.io/project_digital_landing/">"Digital landing"</a>
+              <span class="dots"
+                >.....................................</span
+              >
+              <span><b>[ </b><span class="tech-name">HTML5, CSS3, JS</span><b> ]</b></span>
+            </li>
+            <li class="project-item">
+              <a
+                class="project-link" title="project_mood_landing" href="https://rish-fish.github.io/mood_landing/">"Moodlanding"</a>
+              <span class="dots"
+                >........................................</span
+              >
+              <span><b>[ </b><span class="tech-name">HTML5, CSS3</span><b> ]</b></span>
             </li>
             <!-- <li class="project-item">
               <a class="project-link" href="#"
@@ -183,36 +178,34 @@
         </div>
 
         <!-- work experience -->
-        <div>
+        <div class="project-container">
           <h3 class="about-me-title">Опыт работы</h3>
 
           <!-- company 1 -->
-          <div>
+          <div class="expirience-wrap">
             <h4 class="profession-title">
-              Цифровой художник
+              Учеба FrontEnd /
               <span class="profession-company-orange">Freelance</span>
             </h4>
             <span class="profession-time">
-              Март 2020 - по настоящее время
+              Сентрябрь 2020 - по настоящее время
               <span class="profession-divider">|</span> Латвия
             </span>
-            <ul class="profession-duties">
-              <li class="profession-duties-item">
-                портреты
-              </li>
+            <!-- <ul class="profession-duties">
+              <li class="profession-duties-item">портреты</li>
               <li class="profession-duties-item">
                 иллюстрации для молодёжного журнала voicemedia.lv
               </li>
               <li class="profession-duties-item">
                 иллюстрации для помощи приюту для животных "Dvapsa"
               </li>
-            </ul>
+            </ul> -->
           </div>
 
           <!-- company 2 -->
-          <div>
+          <div class="expirience-wrap">
             <h4 class="profession-title">
-              Редактор-модератор 
+              Редактор-модератор
               <span class="profession-company-orange">ООО «Медиалогия»</span>
             </h4>
             <span class="profession-time">
@@ -239,7 +232,7 @@
           </div>
 
           <!-- company 3 -->
-          <div>
+          <div class="expirience-wrap">
             <h4 class="profession-title">
               Цифровой художник
               <span class="profession-company-orange">Freelance</span>
@@ -249,47 +242,45 @@
               <span class="profession-divider">|</span> Латвия
             </span>
             <ul class="profession-duties">
-              <li class="profession-duties-item">
-                портреты
-              </li>
-              <li class="profession-duties-item">
-                персонажи
-              </li>
-              <li class="profession-duties-item">
-                иллюстрации
-              </li>
-              <li class="profession-duties-item">
-                детали и предметы окружения
-              </li>
+              <li class="profession-duties-item">портреты</li>
+              <li class="profession-duties-item">персонажи</li>
+              <!-- <li class="profession-duties-item">иллюстрации</li> -->
               <!-- <li class="profession-duties-item">
-                открытки
+                детали и предметы окружения
               </li> -->
+              <li class="profession-duties-item">
+                иллюстрации для молодёжного журнала voicemedia.lv
+              </li>
+              <li class="profession-duties-item">
+                иллюстрации в помощь приюту для животных "Dvapsa"
+              </li>
               <li class="profession-duties-item">
                 визуал для мобильной игры bubble shooter "Gold Rush"
               </li>
             </ul>
           </div>
-          
         </div>
 
         <!-- Education -->
         <div>
           <h3 class="about-me-title">Образование</h3>
-          <p class="profession-title">
+          <p class="profession-title title">
             <span class="profession-company-orange">
               МГГУ им. М.А.Шолохова
             </span>
           </p>
-          <p class="education-profession">Факультет Изящных и Визуальных Искусств</p>
+          <p class="profession-title ">
+            Факультет Изящных и Визуальных Искусств
+          </p>
           <span class="profession-time">
             Сентрябрь 2008 - Июнь 2013 | Россия
           </span>
-          <p class="profession-title">
+          <p class="profession-title title">
             <span class="profession-company-orange">
               КДПИ им. К.Фаберже №36
             </span>
           </p>
-          <p class="education-profession">Факультет Горячей эмали</p>
+          <p class="profession-title">Факультет Горячей эмали</p>
           <span class="profession-time">
             Сентрябрь 2002 - Июнь 2006 | Россия
           </span>
@@ -297,24 +288,27 @@
 
         <div>
           <h3 class="about-me-title trennings">Курсы и тренинги</h3>
-          <p class="profession-title">
-            <span class="profession-company-orange">
-              JavaGuru.lv
-            </span>
+          <p class="profession-title title">
+            <a class="profession-company-orange" href="https://it-insiders.tech/">IT INSIDERS</a>
           </p>
-          <p class="education-profession">Вводный курс FrontEnd</p>
+          <p class="profession-title">Адаптивная верстка и автоматизация</p>
+          <span class="profession-time">
+            март 2021 - июль 2021 | Латвия
+          </span>
+
+          <p class="profession-title title">
+            <a class="profession-company-orange" href="https://javaguru.lv/"> JavaGuru.lv </a>
+          </p>
+          <p class="profession-title">Вводный курс FrontEnd</p>
           <span class="profession-time">
             Октябрь 2020 - Декабрь 2020 | Латвия
           </span>
-          <p class="profession-title">
-            <span class="profession-company-orange">
-              GoIT.ua 
-            </span>
+
+          <p class="profession-title title">
+            <a class="profession-company-orange" href="https://goit.ua/"> GoIT.ua </a>
           </p>
-          <p class="education-profession">Mарафон по вёрстке для начинающих</p>
-          <span class="profession-time">
-            Сентрябрь 2020 | онлайн
-          </span>
+          <p class="profession-title">Mарафон по вёрстке для начинающих</p>
+          <span class="profession-time"> Сентрябрь 2020 | онлайн </span>
           <!-- <p class="profession-title">
             <span class="profession-company-orange">
               Htmlacademia.ru и GoIT.ua 
@@ -325,7 +319,6 @@
             Сентрябрь 2020 | онлайн
           </span> -->
         </div>
-        
       </div>
     </div>
   </body>
